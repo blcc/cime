@@ -216,9 +216,9 @@
     <type>char</type>
     <default_value>unset</default_value>
     <values>
+      <value component="norcpm"    >$SRCROOT/components/norcpm</value>
       <value component="desp"      >$CIMEROOT/src/components/data_comps/desp</value>
       <value component="sesp"      >$CIMEROOT/src/components/stub_comps/sesp</value>
-      <value component="norcpm"    >$SRCROOT/components/norcpm</value>
     </values>
     <group>case_comps</group>
     <file>env_case.xml</file>
@@ -239,7 +239,6 @@
       <value component="pop"      >$COMP_ROOT_DIR_OCN/cime_config/config_compsets.xml</value>
       <value component="mpas-o"   >$COMP_ROOT_DIR_OCN/cime_config/config_compsets.xml</value>
       <value component="blom"     >$COMP_ROOT_DIR_OCN/cime_config/config_compsets.xml</value>
-      <value component="norcpm"   >$COMP_ROOT_DIR_ESP/cime_config/config_compsets.xml</value>
     </values>
     <group>case_last</group>
     <file>env_case.xml</file>
